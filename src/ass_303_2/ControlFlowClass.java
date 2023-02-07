@@ -142,6 +142,8 @@ public class ControlFlowClass {
 		//DecimalFormat df = new DecimalFormat("0.00");
 		//System.out.println("You owe " + df.format(tax) + " in taxes.");
 		
+		scanner.close();
+		
 		
 	}
 }
