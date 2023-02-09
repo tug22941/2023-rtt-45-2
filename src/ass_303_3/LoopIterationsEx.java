@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.Random;
 
 
-public class LoopIterations {
+public class LoopIterationsEx {
 
 	//Main method
 	public static void main(String[] args) {
-		LoopIterations li = new LoopIterations();
+		LoopIterationsEx li = new LoopIterationsEx();
 		//li.forLoop();
 		//li.forLoopList();
 		//li.forListExercise(4, 15);
