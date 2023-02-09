@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Random;
 
 //Eric's Github Source Code
-public class ArrayExamples {
+public class ArrayExamplesEx {
 
 	public static void main(String[] args) {
-		ArrayExamples ae = new ArrayExamples();
+		ArrayExamplesEx ae = new ArrayExamplesEx();
 		//ae.createArray();
 		ae.maxRandomValue(100, 0, 10);
 
