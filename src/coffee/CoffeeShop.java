@@ -104,6 +104,7 @@ public class CoffeeShop {
 	
 	//method for printing the user order and total
 	public void viewCart() {
+		//print cart quantity
 		System.out.println("[" + cart.size() + "] " + " Item(s) In Your Cart:\n" );		
 		double totalPrice = 0.0;
 		for(MenuItem item : cart) {
@@ -114,6 +115,7 @@ public class CoffeeShop {
 		System.out.println("-----------------------------------------");
 	}
 	
+	//method for formatting double values to currency string
 	private String formatPrice(double price) {
 		DecimalFormat df = new DecimalFormat("$###.00");
 		return df.format(price);
