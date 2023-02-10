@@ -11,7 +11,10 @@ public class ShapeMain {
 		
 		sq.setArea("10cm^2");
 		
-		System.out.println(s.getArea());
-		System.out.println(sq.getArea());
+//		System.out.println(s.getArea());
+//		System.out.println(sq.getArea());
+		
+		System.out.println(sq.type);
+		System.out.println(s.type);
 	}
 }
