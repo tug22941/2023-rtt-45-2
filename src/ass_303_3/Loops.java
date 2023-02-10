@@ -8,8 +8,8 @@ public class Loops {
 		
 		Loops loops = new Loops();
 		//loops.loopTable();
-		//loops.findGCD();
-		loops.findFutureTuition();
+		loops.findGCD();
+		//loops.findFutureTuition();
 		
 		System.out.println();
 	}
