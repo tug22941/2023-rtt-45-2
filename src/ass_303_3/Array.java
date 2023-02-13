@@ -14,7 +14,8 @@ public class Array {
 		//array.printLinearArr();
 		//array.printDoubleArr();
 		//array.printNoMidArr();
-		array.printMidSwapArr();
+		//array.printMidSwapArr();
+		array.printMaxMinSortArr();
 	}
 	
 	//problem 1
@@ -104,5 +105,12 @@ public class Array {
 			}
 		}
 		System.out.println(Arrays.toString(arr));
+	}
+	
+	//problem 9
+	public void printMaxMinSortArr() {
+		int[] arr = {4, 2, 9, 13, 1, 0};
+
+		System.out.println(arr.toString());
 	}
 }
